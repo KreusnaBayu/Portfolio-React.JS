@@ -1,0 +1,35 @@
+.skills-info-card {
+    min-height: 20rem;
+    border-radius: 0.65rem;
+    border: 1.5px solid #fff;
+    background: #000;
+    backdrop-filter: blur(1rem);
+}
+
+.skills-info-card h6 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: inherit;
+    padding: 0.3rem 2rem ; 
+    background: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 1.5px solid #fff;
+
+}
+
+.skills-info-content {
+    padding: 2rem;
+}
+
+.skill-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill-info p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
