@@ -29,14 +29,14 @@ const Navbar = () => {
                     <a className='menu-item'>Skills</a>
                 </li>
                 <li>
-                    <a className='menu-item'>Work Experience</a>
+                    <a className='menu-item'>Portfolio</a>
                 </li>
                 <li>
                     <a className='menu-item'>Contact Me</a>
                 </li>
 
                 <button className='contact-btn' onClick={() => {}}>
-                    Hire Me
+                <span>Hire Me</span>
                 </button>
             </ul>
 
