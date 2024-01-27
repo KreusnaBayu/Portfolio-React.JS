@@ -40,3 +40,43 @@ export const SKILLS = [
         ]       
     }
 ]
+
+export const PORTFOLIO = [
+
+    {
+        title: "Android Apss SParx",
+        date: "Oktober 2023 - Desember 2023",
+        responbilities: [
+            "Build a mobile display for a parking management system application using Flutter",
+            "Collaborate with the backend on creating APIs and connecting IoT devices with applications",
+            "Implementation of applications that can display real-time data"
+        ],
+    },
+    {
+        title: "Website GPIB EFATA",
+        date: "September 2023 - November 2023",
+        responbilities: [
+            "Served as front end in developing information systems regarding the GPIB EFATA churchr",
+            "Conduct Focus Group discussions on adding features needed by users",
+            "Carry out alpha testing regularly with a team of 3 people"
+        ],
+    },
+    {
+        title: "Website Elprofstore",
+        date: "Maret 2023 - Mei 2023",
+        responbilities: [
+            "Role as backend developer and also the interface for the admin dashboard",
+            "Conduct Focus Group discussions on adding features needed by users",
+            "Introduced and integrated express.js as a Restful API framework"
+        ],
+    },
+    {
+        title: "Recettes de cuisine",
+        date: "September 2022 - Desember 2022",
+        responbilities: [
+            "Implemented advance CSS animations and transitions to enchance the overall user experience",
+            "Conduct Focus Group discussions on adding features needed by users",
+            "collaborate with UI/UX designers to understand the wireframes and mockups that have been created"
+        ],
+    },
+]

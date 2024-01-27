@@ -4,6 +4,7 @@ import 'material-symbols';
 import Hero from './components/Hero/Hero';
 import './App.css'
 import Skills from './components/Skills/Skills';
+import Portfolio from './components/Portfolio/Portfolio';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <div className='container'>
       <Hero />
       <Skills />
+      <Portfolio />
     </div>
     </>
   )

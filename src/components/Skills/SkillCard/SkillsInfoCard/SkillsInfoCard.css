@@ -2,7 +2,7 @@
     min-height: 18rem;
     border-radius: 0.65rem;
     border: 2.5px solid #3887BE;
-    background: #000;
+    background: transparent;
     backdrop-filter: blur(1rem);
 }
 
@@ -11,7 +11,7 @@
     font-weight: 700;
     margin: inherit;
     padding: 0.3rem 2rem ; 
-    background: linear-gradient(90deg, #818FB4 0%, #363062  100%);
+    background: linear-gradient(90deg, #fff 0%, #363062  90%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -35,7 +35,7 @@
 }
 
 .skill-info .percentage{
-    color: #7B66FF;
+    color: #fff;
 }
 .skill-progress-bg {
     width: 100%;
