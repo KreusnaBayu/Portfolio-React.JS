@@ -1,0 +1,57 @@
+.portfolio-card{
+    background: black;
+    border-radius: 0.65rem;
+    border: 1.5px solid #3887BE;
+    padding: 1.5rem;
+   
+}
+
+.portfolio-card h6 {
+    margin: inherit;
+    font-size: 1.05rem;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+    
+}
+
+.portfolio-duration{
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 400;
+    background: #3887BE;
+    border-radius: 0.3rem;
+    padding: 0.4rem 0.6rem;
+  
+}
+
+.portfolio-card ul li {
+    list-style: none;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.portfolio-card ul li::after {
+    content: " ";
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #3887BE;
+    border-radius: 0.5rem;
+    position: absolute;
+    left: -1.3rem;
+    top: 0.3rem;
+}
+
+@media (max-width: 768px) {
+    .portfolio-card {
+        margin: 0;
+    }
+
+    .portfolio-card h6 {
+        font-size: 0.95rem;
+    }
+
+    .portfolio-card ul li {
+        font-size: 0.75rem;
+    }
+}

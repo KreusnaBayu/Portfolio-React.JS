@@ -44,7 +44,7 @@ export const SKILLS = [
 export const PORTFOLIO = [
 
     {
-        title: "Android Apss SParx",
+        title: "Android Apps SParx",
         date: "Oktober 2023 - Desember 2023",
         responbilities: [
             "Build a mobile display for a parking management system application using Flutter",

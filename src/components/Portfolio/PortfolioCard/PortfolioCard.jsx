@@ -1,9 +1,19 @@
 import React from 'react'
 import './PortfolioCard.css'
 
-const PortfolioCard = () => {
+const PortfolioCard = ({details}) => {
   return (
-    <div>PortfolioCard</div>
+    <div className='portfolio-card'>
+      <h6>{details.title}</h6>
+
+      <div className='portfolio-duration'>{details.date}</div>
+
+      <ul>
+        {details.responbilities.map((item) => (
+          <li key={item}>{item}</li>
+        ))}
+      </ul>
+    </div>
   )
 }
 

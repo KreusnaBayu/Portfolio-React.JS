@@ -19,7 +19,7 @@ const Navbar = () => {
 
     <nav className='nav-wrapper'>
         <div className='nav-content'>
-            <img className='logo' src="./assets/images/logo2.png" alt="" />
+            <img className='logo' src="./assets/images/Logo3.png" alt="" />
 
             <ul>
                 <li>

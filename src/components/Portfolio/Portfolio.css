@@ -6,5 +6,61 @@
 .portfolio-container h5 {
     font-size: 1.5rem;
     font-weight: 600;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+}
+
+.arrow-Left,
+.arrow-Right {
+    width: 2.2rem;
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3887BE;
+    border-radius: 0.65rem;
+    border: 1.5px solid #3887BE;
+    background: #130f2a;
+    position: absolute;
+    top: 55%;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.arrow-Right span,
+.arrow-Left span {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.arrow-Right {
+    right: -2rem;
+}
+
+.arrow-Left {
+    left: -2rem;
+}
+
+@media (max-width: 1025px) {
+
+    .arrow-Left {
+        left: 0rem;
+    }
+
+    .arrow-Right {
+        right: 0rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .portfolio-container h5 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+    .arrow-Left {
+        left: -1rem;
+    }
+
+    .arrow-Right {
+        right: -1rem;
+    }
 }
